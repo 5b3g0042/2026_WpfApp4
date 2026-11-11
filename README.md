@@ -1,7 +1,7 @@
-#WPF小作家
+## WPF小作家
 2026/11/11
 
-新增一個DocutmentViewer視窗，用來顯示和瀏覽文檔內容。
+# 新增一個DocutmentViewer視窗，用來顯示和瀏覽文檔內容。
 在主視窗MainWindow中新增一個按鈕，點擊後可以打開DocutmentViewer視窗。
 在DocutmentViewer視窗中新增一個RichTextBox，用來顯示文檔內容，並且可以進行編輯。
 使用CommandBinding來實現RichTextBox的基本編輯功能，例如複製、剪下、貼上等。
