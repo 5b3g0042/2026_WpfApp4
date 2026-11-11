@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using _0202;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -9,7 +10,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace _0202
+namespace _2026_WpfApp4
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -19,6 +20,12 @@ namespace _0202
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void OpenButton_Click(object sender, RoutedEventArgs e)
+        {
+            MyDocumentViewer myDocumentViewer = new MyDocumentViewer();
+            myDocumentViewer.Show();
         }
     }
 }
